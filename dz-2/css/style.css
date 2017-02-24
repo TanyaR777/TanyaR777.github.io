@@ -20,9 +20,9 @@ a, a:hover {
 }
 
 .clearfix::after {
-    content: '';
-    display: block;
-    clear: both;
+ content: '';
+ display: block;
+ clear: both;
 }
 
 body {
@@ -31,6 +31,7 @@ body {
 }
 
 .container {
+	padding: 0 50px 60px;
 	margin: 0 auto;
 	width: 1060px;
 	background: #fff;
@@ -45,22 +46,22 @@ body {
 }
 
 .menu {
-	margin: 0 50px;
  background: rgb(125,126,125); 
 }
 
 .menu li {
-	display: inline;
- padding: 11px 28px;
-	color: #fff;
-	font-size: 14px;
-	line-height: normal;
-	letter-spacing: normal;
+	float: left;
 }
 
 .menu li a {
- text-shadow: #323232 1px 2px 3px;
+ display: block;
+	padding: 11px 28px;
+	color: #fff;
 	text-align: center;
+	font-size: 14px;
+	text-shadow: #323232 1px 2px 3px;
+	line-height: normal;
+	letter-spacing: normal;
 }
 
 .menu li:hover {
@@ -70,33 +71,37 @@ body {
 }
 
 .menu .active {
-	display: inline-block;
 	background-color: #454545;
 }
 
 /* MAIN */
 .sidebar {
 	float: left;
+	margin: 35px 0 0 50px;
 }
 
 .sidebar-menu {
  width: 240px;
- margin: 35px 0 0 50px;
 }
 
 .sidebar-menu li {
- padding-top: 15px;
- padding-left: 25px;
-	padding-bottom: 15px;
- color: #7f7d7d;
-	font-size: 13px;
-	line-height: 7px;
  border: 1px solid #c8c8c8;
 	border-bottom: 0;
+	padding: 15px 0 15px 25px;
 }
 
 .sidebar-menu li:last-child {
 	border-bottom: 1px solid #c8c8c8;
+}
+
+.sidebar-menu li:hover {
+	background-color: #f9f9f9;
+}
+
+.sidebar-menu li a {
+ color: #7f7d7d;
+	font-size: 13px;
+	line-height: 7px;
 }
 
 .active {
@@ -114,20 +119,14 @@ body {
 	color: #000;
 }
 
-.sidebar-menu li:hover {
-	background-color: #f9f9f9;
-}
-
 .content {
 	float: left;
 	margin: 35px 0 0 45px;
 	width: 673px;
-	height: 400px;
-	border: 1px solid #c8c8c8;
 }
 
 .content-box {
-	height: 400px;
+	border: 1px solid #c8c8c8;
 }
 
 .content-box img {
@@ -144,43 +143,37 @@ body {
 
 /* FOOTER */
 footer {
-	clear: both;
-	padding-top: 240px;
-	padding-bottom: 60px;
+	background-color: #e1e1e1;
 }
 
 .f-menu {
-	margin: 0 50px;
-	padding: 17px 0;
-	background-color: #e1e1e1;
+	float: left;
 }
 
 .f-menu li {
 	float: left;
 	padding-right: 34px;
-	width: 11%;
+}
+
+.f-menu li a {
+	display: block;
+	padding: 22px 34px;
 	color: #4f4f4f;
 	font-size: 13px;
 	text-align: center;
 }
 
-.f-menu li:last-child {
-	float: right;
- width: 20%;
- padding-right: 0;
-}
-
-
 .f-menu li a:hover {
-		border-bottom: 1px solid #4f4f4f;
+	text-decoration: underline;
 }
 
 .act a {
-	border-bottom: 1px solid #4f4f4f;
+	text-decoration: underline;
 }
 
 .copyright {
  float: right;
  font-size: 13px;
  color: #4f4f4f;
+	padding: 14px 34px 0;
 }
