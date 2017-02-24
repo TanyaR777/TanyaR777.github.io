@@ -1,10 +1,10 @@
 * {
  padding: 0;
- margin: 0;
+	margin: 0;
 }
 
 ul, li {
- list-style-type: none;
+	list-style-type: none;
 }
 
 ul {
@@ -14,7 +14,7 @@ ul {
 }
 
 a, a:hover {
- line-height: inherit;
+	line-height: inherit;
  color: inherit;
  text-decoration: inherit;
 }
@@ -46,16 +46,12 @@ body {
 
 .menu {
 	margin: 0 50px;
-  background: rgb(125,126,125); 
+ background: rgb(125,126,125); 
 }
 
 .menu li {
 	display: inline;
-<<<<<<< HEAD
  padding: 11px 28px;
-=======
-  padding: 9px 20px 11px 27px;
->>>>>>> 2c78028e0adedbac0ba39fac78a14d4b6117280c
 	color: #fff;
 	font-size: 14px;
 	line-height: normal;
@@ -76,11 +72,6 @@ body {
 .menu .active {
 	display: inline-block;
 	background-color: #454545;
-<<<<<<< HEAD
-=======
-  border-left: 1px solid #838383;
-  border-right: 1px solid #838383;
->>>>>>> 2c78028e0adedbac0ba39fac78a14d4b6117280c
 }
 
 /* MAIN */
@@ -96,12 +87,12 @@ body {
 .sidebar-menu li {
  padding-top: 15px;
  padding-left: 25px;
- padding-bottom: 15px;
+	padding-bottom: 15px;
  color: #7f7d7d;
- font-size: 13px;
- line-height: 7px;
+	font-size: 13px;
+	line-height: 7px;
  border: 1px solid #c8c8c8;
- border-bottom: 0;
+	border-bottom: 0;
 }
 
 .sidebar-menu li:last-child {
@@ -165,15 +156,9 @@ footer {
 }
 
 .f-menu li {
-<<<<<<< HEAD
 	float: left;
 	padding-right: 34px;
 	width: 11%;
-=======
-	display: inline;
-  padding: 8px 0 12px 0;
-	font-size: 13px;
->>>>>>> 2c78028e0adedbac0ba39fac78a14d4b6117280c
 	color: #4f4f4f;
 	font-size: 13px;
 	text-align: center;
