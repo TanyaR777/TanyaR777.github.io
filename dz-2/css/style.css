@@ -19,6 +19,12 @@ a, a:hover {
  text-decoration: inherit;
 }
 
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 body {
 	background: #f9f9f9;
 	font-family: "OpenSansRegular", sans-serif;
@@ -45,36 +51,27 @@ body {
 
 .menu li {
 	display: inline;
- padding: 9px 20px 11px 27px;
+ padding: 11px 28px;
 	color: #fff;
 	font-size: 14px;
 	line-height: normal;
 	letter-spacing: normal;
 }
 
-.menu li:first-child {
-	padding-right: 62px;
-}
-
-.menu li:nth-child(3) {
-	padding-left: 64px;
-	padding-right: 0;
-}
-
-.menu li:nth-child(4) {
-	padding-left: 91px;
-	padding-right: 0;
-}
-
 .menu li a {
  text-shadow: #323232 1px 2px 3px;
+	text-align: center;
+}
+
+.menu li:hover {
+	background-color: #454545;
+	border-left: 1px solid #bebebe;
+ border-right: 1px solid #bebebe;
 }
 
 .menu .active {
 	display: inline-block;
 	background-color: #454545;
- border-left: 1px solid #838383;
- border-right: 1px solid #838383;
 }
 
 /* MAIN */
@@ -107,15 +104,25 @@ body {
 }
 
 .sidebar-menu .active a {
-	color: #000;
 	padding-left: 15px;
+	color: #000;
+}
+
+.sidebar-menu a:hover {
+	padding-left: 15px;
+	background-color: #f9f9f9;
+	color: #000;
+}
+
+.sidebar-menu li:hover {
+	background-color: #f9f9f9;
 }
 
 .content {
 	float: left;
+	margin: 35px 0 0 45px;
 	width: 673px;
 	height: 400px;
-	margin: 35px 0 0 45px;
 	border: 1px solid #c8c8c8;
 }
 
@@ -136,7 +143,7 @@ body {
 }
 
 /* FOOTER */
-.footer {
+footer {
 	clear: both;
 	padding-top: 240px;
 	padding-bottom: 60px;
@@ -149,26 +156,31 @@ body {
 }
 
 .f-menu li {
-	display: inline;
- padding: 8px 0 12px 0;
-	font-size: 13px;
+	float: left;
+	padding-right: 34px;
+	width: 11%;
 	color: #4f4f4f;
+	font-size: 13px;
+	text-align: center;
+}
+
+.f-menu li:last-child {
+	float: right;
+ width: 20%;
+ padding-right: 0;
+}
+
+
+.f-menu li a:hover {
+		border-bottom: 1px solid #4f4f4f;
 }
 
 .act a {
 	border-bottom: 1px solid #4f4f4f;
 }
 
-.f-menu li:first-child {
-	padding-left: 25px;
-}
-
-.f-menu li:nth-child(2), 
-.f-menu li:nth-child(3), 
-.f-menu li:nth-child(4) {
-	padding-left: 95px;
-}
-
-.f-menu li:last-child {
-	padding-left: 282px;
+.copyright {
+ float: right;
+ font-size: 13px;
+ color: #4f4f4f;
 }
