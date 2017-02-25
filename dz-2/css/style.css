@@ -51,6 +51,12 @@ body {
 
 .menu li {
 	float: left;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+}
+
+.menu li:first-child {
+	border-left: 1px solid transparent;
 }
 
 .menu li a {
@@ -72,12 +78,14 @@ body {
 
 .menu .active {
 	background-color: #454545;
+	border-left: 1px solid #bebebe;
+ border-right: 1px solid #bebebe;
 }
 
 /* MAIN */
 .sidebar {
 	float: left;
-	margin: 35px 0 0 50px;
+	margin: 35px 0 0 0;
 }
 
 .sidebar-menu {
@@ -120,9 +128,9 @@ body {
 }
 
 .content {
-	float: left;
-	margin: 35px 0 0 45px;
-	width: 673px;
+	float: right;
+	margin-top: 35px;
+	width: 770px;
 }
 
 .content-box {
@@ -130,12 +138,12 @@ body {
 }
 
 .content-box img {
-	padding: 47px 87px;
+	padding: 50px 134px;
 }
 
 .content p {
 	margin-top: 40px;
-	padding: 0 0 65px 25px;
+	padding-left: 25px;
 	color: #2c2c2c;
 	font-size: 13px;
 	line-height: 21px;
@@ -143,6 +151,7 @@ body {
 
 /* FOOTER */
 footer {
+	margin-top: 65px;
 	background-color: #e1e1e1;
 }
 
