@@ -76,12 +76,6 @@ body {
  border-right: 1px solid #bebebe;
 }
 
-.menu .active {
-	background-color: #454545;
-	border-left: 1px solid #bebebe;
- border-right: 1px solid #bebebe;
-}
-
 /* MAIN */
 .sidebar {
 	float: left;
@@ -95,34 +89,22 @@ body {
 .sidebar-menu li {
  border: 1px solid #c8c8c8;
 	border-bottom: 0;
-	padding: 15px 0 15px 25px;
 }
 
 .sidebar-menu li:last-child {
 	border-bottom: 1px solid #c8c8c8;
 }
 
-.sidebar-menu li:hover {
-	background-color: #f9f9f9;
-}
-
 .sidebar-menu li a {
+	display: block;
+	padding: 15px 0 15px 25px;
  color: #7f7d7d;
 	font-size: 13px;
 	line-height: 7px;
 }
 
-.active {
-	background-color: #f9f9f9;
-}
-
-.sidebar-menu .active a {
-	padding-left: 15px;
-	color: #000;
-}
-
-.sidebar-menu a:hover {
-	padding-left: 15px;
+.sidebar-menu li a:hover {
+	padding-left: 40px;
 	background-color: #f9f9f9;
 	color: #000;
 }
@@ -173,10 +155,6 @@ footer {
 }
 
 .f-menu li a:hover {
-	text-decoration: underline;
-}
-
-.act a {
 	text-decoration: underline;
 }
 
