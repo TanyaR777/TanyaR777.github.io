@@ -13,11 +13,11 @@ a {
 }
 
 body {
+	padding-bottom: 250px;
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
 	font-family: "helveticaneuecyrlight", sans-serif;
 	font-size: 14px;
-	padding-bottom: 250px;
 }
 
 .clearfix::after {
@@ -29,8 +29,8 @@ body {
 /*MENU*/
 .menu {
 	margin-bottom: 210px;
-	background: url(../img/bg_mnu.png);
 	height: 35px;
+	background: url(../img/bg_mnu.png);
 }
 
 .menu p {
@@ -43,9 +43,9 @@ i.fa.fa-flag {
 }
 
 .fa {
-	font-size: 20px;
-	color: #fff;
 	padding-left: 20px;
+	color: #fff;
+	font-size: 20px;
 }
 
 .menu ul {
@@ -90,13 +90,14 @@ i.fa.fa-flag {
 .name {
 	margin: 0 auto;
 	width: 560px;
+	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.6);
 }
 
 .name h1 {
 	padding: 15px 0;
-	font-size: 24px;
 	color: #fff;
+	font-size: 24px;
 	text-align: center;
 }
 
@@ -109,12 +110,12 @@ i.fa.fa-flag {
 }
 
 .share {
+	display: block;
 	margin: 0 auto;
 	border: none;
 	border-top: 1px solid #798bb9;
-	background-color: #31467d;
 	border-radius: 5px;
-	display: block;
+	background-color: #31467d;
 }
 
 .fa.fa-facebook, .fa.fa-angle-right  {
@@ -123,9 +124,9 @@ i.fa.fa-flag {
 
 .share p {
 	display: inline-block;
-	font-size: 14px;
-	color: #fff;
 	padding: 0 20px;
+	color: #fff;
+	font-size: 14px;
 }
 
 .share::after {
@@ -133,9 +134,9 @@ i.fa.fa-flag {
 	height: 40px;
 	width: 1px;
 	position: absolute;
+	left: 184px;
 	background-color: #213c71;
 	border-right: 1px solid #4f68aa;
-	left: 184px;
 }
 
 .ou {
@@ -166,9 +167,9 @@ i.fa.fa-flag {
 
 .row {
 	padding: 23px 0 5px 0;
+	color: #7c7f7c;
 	text-transform: uppercase;
 	text-align: center;
-	color: #7c7f7c;
 }
 
 input {
@@ -176,33 +177,36 @@ input {
 	margin: 18px auto;
  padding: 8px;
 	width: 260px;
-	color: #e9e9ed;
+	font-size: 14px;
 	background-color: #0f0f0f;
+	color: #e9e9ed;
 	border: none;
  border-bottom: 1px solid #484848;
-	font-size: 14px;
 }
 
 input:hover {
 	background: #1b5288;
-	box-shadow: 0px 0px 10px 3px #4f8ab2;
 	border-bottom: 1px solid #699ccd;
-}
-
-input[type="checkbox"] {
-	display: inline-block;
-	background-color: #fff;
-	width: 10px;
-	margin: 0;
+	box-shadow: 0px 0px 10px 3px #4f8ab2;
 }
 
 label {
+	display: flex;
+	padding-right: 185px;
+	height: 25px;
+	justify-content: center;
+	align-items: center;
 	color: #fff;
 }
 
+input[type="checkbox"] {
+	margin-right: 9px;
+ width: 5px;
+}
+
 .btn2 {
- margin: 0px 20px;
  padding: 8px 15px;
+	width: 150px;
 	background: #87cfff;
 	background-image: -webkit-linear-gradient(top, #87cfff, #2980b9);
 	background-image: -moz-linear-gradient(top, #87cfff, #2980b9);
@@ -210,13 +214,14 @@ label {
 	background-image: -o-linear-gradient(top, #87cfff, #2980b9);
 	background-image: linear-gradient(to bottom, #87cfff, #2980b9);
 	border: none;
+ border-radius: 3px;
 	color: #fff;
 }
 
 span {
 	display: block;
-	font-size: 11px;
 	color: #fff;
+	font-size: 11px;
 	line-height: 16px;
 	text-align: center;
 }
