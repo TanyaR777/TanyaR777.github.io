@@ -13,9 +13,10 @@ a {
 }
 
 body {
-	padding-bottom: 250px;
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
 	font-family: "helveticaneuecyrlight", sans-serif;
 	font-size: 14px;
 }
@@ -27,13 +28,13 @@ body {
 }
 
 /*MENU*/
+
 .menu {
-	margin-bottom: 210px;
 	height: 35px;
 	background: url(../img/bg_mnu.png);
 }
 
-.menu p {
+.menu a {
 	float: right;
 	color: #fff;
 }
@@ -86,10 +87,21 @@ i.fa.fa-flag {
 	color: #fff;
 }
 
+.btn a {
+	text-decoration: underline;
+}
+
 /*CONTENT*/
+.block {
+ width: 560px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
 .name {
 	margin: 0 auto;
-	width: 560px;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.6);
 }
@@ -103,10 +115,18 @@ i.fa.fa-flag {
 
 .wrap {
 	margin: 2px auto 0;
-	padding: 35px 0;
-	position: relative;
-	width: 560px;
+	padding: 50px 0;
 	background: rgba(0, 0, 0, 0.6);
+}
+
+form {
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	left: 22%;
+	right: 22%;
 }
 
 .share {
@@ -116,17 +136,14 @@ i.fa.fa-flag {
 	border-top: 1px solid #798bb9;
 	border-radius: 5px;
 	background-color: #31467d;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	 width: 275px;
 }
 
 .fa.fa-facebook, .fa.fa-angle-right  {
- padding: 10px 15px;
-}
-
-.share p {
-	display: inline-block;
-	padding: 0 20px;
-	color: #fff;
-	font-size: 14px;
+ padding: 10px 23px;
 }
 
 .share::after {
@@ -134,13 +151,17 @@ i.fa.fa-flag {
 	height: 40px;
 	width: 1px;
 	position: absolute;
-	left: 184px;
+	left: 198px;
 	background-color: #213c71;
 	border-right: 1px solid #4f68aa;
 }
 
 .ou {
 	position: relative;
+	padding: 22px 0 5px 0;
+	color: #7c7f7c;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .ou::before {
@@ -165,12 +186,6 @@ i.fa.fa-flag {
 	background-color: #000;
 }
 
-.row {
-	padding: 23px 0 5px 0;
-	color: #7c7f7c;
-	text-transform: uppercase;
-	text-align: center;
-}
 
 input {
 	display: block;
@@ -201,7 +216,7 @@ label {
 
 input[type="checkbox"] {
 	margin-right: 9px;
- width: 5px;
+ width: 15px;
 }
 
 .btn2 {
@@ -218,10 +233,13 @@ input[type="checkbox"] {
 	color: #fff;
 }
 
-span {
-	display: block;
+.text {
 	color: #fff;
 	font-size: 11px;
 	line-height: 16px;
 	text-align: center;
 }
+
+
+
+
