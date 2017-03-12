@@ -197,8 +197,7 @@ form {
 	background-color: #000;
 }
 
-
-input {
+.reg-form {
 	display: block;
 	margin: 18px auto;
  padding: 8px;
@@ -218,7 +217,6 @@ input:hover {
 
 label {
 	display: flex;
-	padding-right: 185px;
 	height: 25px;
 	justify-content: center;
 	align-items: center;
