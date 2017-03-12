@@ -28,6 +28,10 @@ body {
 }
 
 /*MENU*/
+.wrapper {
+	position: relative;
+	min-height: 1000px;
+}
 
 .menu {
 	height: 35px;
@@ -76,7 +80,6 @@ i.fa.fa-flag {
 .btn {
 	float: right;
  margin: 0px 20px;
- padding: 8px 15px;
 	background: #87cfff;
 	background-image: -webkit-linear-gradient(top, #87cfff, #2980b9);
 	background-image: -moz-linear-gradient(top, #87cfff, #2980b9);
@@ -85,10 +88,18 @@ i.fa.fa-flag {
 	background-image: linear-gradient(to bottom, #87cfff, #2980b9);
 	border: none;
 	color: #fff;
+	padding: 0 10px;
+}
+
+.btn span {
+	float: none;
 }
 
 .btn a {
 	text-decoration: underline;
+	float: none;
+	padding: 9px 9px;
+	display: inline-block;
 }
 
 /*CONTENT*/
