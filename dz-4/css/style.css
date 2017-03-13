@@ -13,12 +13,12 @@ a {
 }
 
 body {
+	font-family: "helveticaneuecyrlight", sans-serif;
+	font-size: 14px;
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
-	font-family: "helveticaneuecyrlight", sans-serif;
-	font-size: 14px;
 }
 
 .clearfix::after {
@@ -30,7 +30,7 @@ body {
 /*MENU*/
 .wrapper {
 	position: relative;
-	min-height: 1000px;
+	min-height: 100vh;		
 }
 
 .menu {
@@ -112,7 +112,6 @@ i.fa.fa-flag {
 }
 
 .name {
-	margin: 0 auto;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.6);
 }
@@ -132,12 +131,6 @@ i.fa.fa-flag {
 
 form {
 	position: relative;
-}
-
-.text {
-	position: absolute;
-	left: 22%;
-	right: 22%;
 }
 
 .share {
