@@ -241,8 +241,7 @@ select {
 }
 
 aside {
-	position: absolute;
-	top: 40px;
+ padding-top: 13px;
 }
 
 .sh, .sh-name {
@@ -296,7 +295,9 @@ aside {
 }
 
 .sidebar-menu {
-	float: right;
+ display: flex;
+ flex-direction: column;
+ padding-left: 50px;
 }
 
 .sidebar-menu li {
@@ -408,7 +409,12 @@ input[type="checkbox"] {
  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
 }
 
-
+.brand {
+	position: relative;
+ display: flex;
+ justify-content: center;
+ top: 56px;
+}
 
 .brand-menu li {
 	float: left;
@@ -454,7 +460,8 @@ input[type="checkbox"] {
 }
 
 footer {
-	width: 907px;
+ position: relative;
+ top: 83px;
 	height: 100px;
 	background-color: #213a4d;
 	font-family: "Arial", sans-serif;
