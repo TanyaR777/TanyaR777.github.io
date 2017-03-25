@@ -239,7 +239,7 @@ form {
 }
 
 .price i {
-	padding-right: 7px;
+	padding-right: 10px;
 }
 
 .fa.fa-cart-arrow-down {
@@ -255,7 +255,7 @@ form {
 }
 
 .cart p {
-	font-size: 12px;
+	font-size: 11px;
 	color: #fff;
 	display: inline-block;
 }
