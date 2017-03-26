@@ -330,8 +330,6 @@ display: flex;
 	line-height: 10px;
 }
 
-
-
 .m-label span {
 	color: grey;
 	font-size: 10px;
@@ -468,11 +466,13 @@ display: flex;
 .sidebar-menu {
  display: flex;
  flex-direction: column;
- padding-left: 50px;
+ padding-left: 36px;
 }
 
-.sidebar-menu li {
- list-style-type: circle;
+.sidebar-menu i {
+	margin-right: 5px;
+ font-size: 8px;
+	vertical-align: middle;
 }
 
 .sidebar-menu li a, label  {
@@ -486,6 +486,10 @@ display: flex;
 	font-weight: bold;
 	font-style: italic;
 	text-decoration: underline;
+}
+
+.sidebar-menu li a i:hover {
+	font-weight: bold;
 }
 
 .leftcol, .rightcol {
