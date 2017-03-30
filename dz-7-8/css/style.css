@@ -107,9 +107,26 @@ a:hover, a:active, a:focus {
 	background: rgba(0, 0, 0, 0.3);
 }
 
+.fa.fa-chevron-left {
+	position: absolute;
+	top: 182px;
+ left: -172px;
+	font-size: 25px;
+	color: #fff;
+	}
+
+.fa.fa-chevron-right {
+	position: absolute;
+	top: 182px;
+ right: -172px;
+	font-size: 25px;
+	color: #fff;
+}
+
 .slider-block-1 {
-	width: 54%;
+	position: relative;
 	float: left;
+	width: 54%;
 }
 
 .slider-block-1_name1 {
