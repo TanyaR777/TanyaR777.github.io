@@ -50,7 +50,7 @@ a:hover, a:active, a:focus {
 	float: left;
 }
 
-.logo__txt {
+.logo-txt {
 	text-transform: uppercase;
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 46px;
@@ -58,7 +58,7 @@ a:hover, a:active, a:focus {
 	text-shadow: 2px 2px 1px rgba(150, 150, 150, 0.6);
 }
 
-.logo__txt--gradient {
+.logo-txt_gradient {
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 46px;
  color: #35273d;
@@ -74,16 +74,16 @@ a:hover, a:active, a:focus {
 	width: 66%;
 }
 
-.menu__item {
+.menu-item {
 	float: left;
 	margin-right: 8%;
 }
 
-.menu__item:last-child {
+.menu-item:last-child {
 	margin-right: 0;
 }
 
-.menu__item--link {
+.menu-item_link {
 	display: block;
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 24px;
@@ -93,12 +93,12 @@ a:hover, a:active, a:focus {
  line-height: 48px;
 }
 
-.menu__item--link:hover {
+.menu-item_link:hover {
 	text-decoration: underline;
 	color: #edbfff;
 }
 
-.menu__item--link--span {
+.menu-item_link_span {
 	color: #fff;
 }
 
@@ -107,12 +107,12 @@ a:hover, a:active, a:focus {
 	background: rgba(0, 0, 0, 0.3);
 }
 
-.slider__block-1 {
+.slider-block-1 {
 	width: 54%;
 	float: left;
 }
 
-.slider__block-1--name1 {
+.slider-block-1_name1 {
 	padding-top: 75px;
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-weight: 300;
@@ -121,7 +121,7 @@ a:hover, a:active, a:focus {
 	text-transform: capitalize;
 }
 
-.slider__block-1--name2 {
+.slider-block-1_name2 {
 	color: #edbfff;
 	font-family: "LeagueGothicRegular", sans-serif;
 	text-transform: uppercase;
@@ -130,7 +130,7 @@ a:hover, a:active, a:focus {
 	line-height: 20px;
 }
 
-.slider__block-1--txt {
+.slider-block-1_txt {
 	padding-bottom: 79px;
 	padding-top: 14px;
 	font-family: "OpenSansLight", sans-serif;
@@ -139,13 +139,13 @@ a:hover, a:active, a:focus {
 	color: #fff;
 } 
 
-.slider__block-2 {
+.slider-block-2 {
  width: 40%;
 	float: right;
 	position: relative;
 }
 
-.slider__block-2 img {
+.slider-block-2 img {
  width: 274px;
  position: absolute;
  top: -17px;
@@ -163,7 +163,7 @@ a:hover, a:active, a:focus {
  margin: 74px 0 65px 0;
 }
 
-.info__block {
+.info-block {
 	float: left;
  width: 33%;
  margin-left: 3px;
@@ -176,33 +176,33 @@ a:hover, a:active, a:focus {
 	background: transparent url(../img/icon.png) 0 0 no-repeat;
 }
 
-.info__block--icon1 {
+.info-block_icon1 {
 	margin: 9px 0 0 8px;
 	float: left;
 	background-position: 2px 0;
 }
 
-.info__block--txt {
+.info-block_txt {
 	float: right;
 	color: #fff;
 	text-shadow: 2px 2px 1px rgba(150, 150, 150, 0.6);
 }
 
-.info__block--txt--cap {
+.info-block_txt_cap {
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-weight: 300;
 	font-size: 29px;
 	text-transform: uppercase;
 }
 
-.info__block--txt--par {
+.info-block_txt_par {
  padding-top: 7px;
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 15px;
  line-height: 23px;
 }
 
-.info__block--link {
+.info-block_link {
  float: right;
  padding-top: 19px;
 	text-transform: uppercase;
@@ -213,13 +213,13 @@ a:hover, a:active, a:focus {
  word-spacing: -2px;
 }
 
-.info__block--icon2 {
+.info-block_icon2 {
 	margin: 9px 0 0 24px;
 	float: left;
 	background-position: -38px 0;
 }
 
-.info__block--icon3 {
+.info-block_icon3 {
 	margin: 9px 0 0 42px;
 	float: left;
 	background-position: -79px 0;
@@ -252,15 +252,15 @@ a:hover, a:active, a:focus {
 	border-top: 1px solid #f9f9f9;
 }
 
-.post__block {
+.post-block {
  margin: 103px 0 87px 27px;
 }
 
-.post__block--unvis {
+.post-block_unvis {
 	display: none;
 }
 
-.post__block--link {
+.post-block_link {
 	float: right;
  padding: 19px 9px 0;
 	text-transform: uppercase;
@@ -271,24 +271,24 @@ a:hover, a:active, a:focus {
  word-spacing: -2px;
 }
 
-.post__block--link:hover, .post__block--link:focus, .post__block--link:active {
+.post-block_link:hover, .post-block_link:focus, .post-block_link:active {
 	color: #454545;
 }
 
-.post__block1 {
+.post-block1 {
 	float: left;
 	width: 44%;
 	position: relative;
 	background: #fff;
 }
 
-.post__block1--img {
+.post-block1_img {
 	position: absolute;
  left: -25px;
  top: 14px;
 }
 
-.post__block1--name {
+.post-block1_name {
 	padding: 23px 0 0 38px;
 	text-transform: uppercase;
 	font-family: "LeagueGothicRegular", sans-serif;
@@ -299,14 +299,14 @@ a:hover, a:active, a:focus {
 	font-weight: 300;
 }
 
-.post__block1--name span {
+.post-block1_name span {
 	text-transform: uppercase;
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 28px;
 	color: #edbfff;
 }
 
-.post__block1--par {
+.post-block1_par {
  padding: 8px 0 8px 32px;
  margin-left: 5px;
  margin-bottom: 27px;
@@ -318,13 +318,13 @@ a:hover, a:active, a:focus {
 	line-height: 24px;
 }
 
-.post__block2 {
+.post-block2 {
 	float: right;
  width: 47%;
  margin-right: 8px;
 }
 
-.post__block2--name {
+.post-block2_name {
 	padding: 23px 0 0;
 	text-transform: uppercase;
 	font-family: "LeagueGothicRegular", sans-serif;
@@ -334,30 +334,30 @@ a:hover, a:active, a:focus {
 	font-weight: 300;
 }
 
-.post__block2--cont--img {
+.post-block2_cont_img {
 	float: left;
 }
 
-.post__block2--cont--txt {
+.post-block2_cont_txt {
 	float: left;
 	padding-left: 17px;
 	line-height: 23px;
 	word-spacing: -1px;
 }
 
-.post__block2--cap {
+.post-block2_cap {
 	font-family: "OpenSansLight", sans-serif;
 	word-spacing: 6px;
 	color: #515151;
 	font-weight: bold;
 }
 
-.post__block2--par {
+.post-block2_par {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 16px;
 }
 
-.post__block2--cont {
+.post-block2_cont {
  display: flex;
  padding: 16px 0 0;
  align-items: center;
@@ -370,7 +370,7 @@ a:hover, a:active, a:focus {
 	border-bottom: 1px solid #d8d8d8;
 }
 
-.brand__name {
+.brand-name {
  padding: 24px 0 30px;
 }
 
@@ -381,32 +381,32 @@ a:hover, a:active, a:focus {
  background: transparent url(../img/brand.png) 0 0 no-repeat;
 }
 
-.brand__name--brand1 {
+.brand-name_brand1 {
 	background-position: 20px 0;
 	margin-left: 74px;
 }
 
-.brand__name--brand2 {
+.brand-name_brand2 {
 	background-position: -99px 0;
 	margin-left: 11px;
 }
 
-.brand__name--brand3 {
+.brand-name_brand3 {
 	background-position: -228px 0;
 	margin-left: 21px;
 }
 
-.brand__name--brand4 {
+.brand-name_brand4 {
 	background-position: -356px 0;
 	margin-left: 20px;
 }
 
-.brand__name--brand5 {
+.brand-name_brand5 {
 	background-position: -526px 0;
  margin-left: 62px;
 }
 
-.brand__name--brand6 {
+.brand-name_brand6 {
 	background-position: -669px 0;
  margin-left: 35px;
 }
@@ -416,23 +416,23 @@ a:hover, a:active, a:focus {
 	background: #ececec;
 }
 
-.comments__wrap {
+.comments-wrap {
 	width: 100%;
 	padding: 86px 0 93px;
 }
 
-.comments__block {
+.comments-block {
  float: left;
 	width: 30%;
  margin: 0 0 0 45px;
  padding: 0 0 0 2px;
  }
 
-.comments__block:first-child {
+.comments-block:first-child {
 	margin: 0;
 }
 
-.comments__block--name {
+.comments-block_name {
 	text-transform: uppercase;
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 49px;
@@ -441,7 +441,7 @@ a:hover, a:active, a:focus {
 	font-weight: 300;
 }
 
-.comments__block--name span {
+.comments-block_name span {
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 49px;
  color: #b9b9b9;
@@ -449,7 +449,7 @@ a:hover, a:active, a:focus {
 	font-weight: 300;
 }
 
-.comments__block--cap {
+.comments-block_cap {
 	font-style: italic;
 	font-size: 16px;
 	font-family: "Georgia", sans-serif;
@@ -457,18 +457,18 @@ a:hover, a:active, a:focus {
 	line-height: 34px;
 }
 
-.comments__block__unvis {
+.comments-block-unvis {
 	display: none;
 }
 
-.comments__block--txt {
+.comments-block_txt {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 16px;
 	color: #888888;
 	line-height: 24px;
 }
 
-.comments__block--name1 { 
+.comments-block_name1 { 
 	padding: 6px 0 5px 0;
 	font-family: "LeagueGothicRegular", sans-serif;
 	text-transform: uppercase;
@@ -486,22 +486,22 @@ footer {
  box-shadow: inset -2px 1px 19px 0px rgba(0,0,0,0.83);
 }
 
-.footer__menu {
+.footer-menu {
 	float: left;
 	font-size: 0;
  width: 80%;
 }
 
-.footer__menu--item {
+.footer-menu_item {
 	float: left;
 	margin: 0 0 0 43px;
 }
 
-.footer__menu--item:first-child {
+.footer-menu_item:first-child {
 	margin: 0;
 }
 
-.footer__menu--link {
+.footer-menu_link {
 	display: block;
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 20px;
@@ -511,16 +511,16 @@ footer {
  line-height: 114px;
 }
 
-.footer__menu--link:hover {
+.footer-menu_link:hover {
 	text-decoration: underline;
 	color: #edbfff;
 }
 
-.footer__menu--link--span {
+.footer-menu_link_span {
 	color: #fff;
 }
 
-.footer__txt {
+.footer-txt {
 	display: block;
 	width: 20%;
 	float: right;
@@ -530,7 +530,7 @@ footer {
  line-height: 114px;
 }
 
-.footer__txt span {
+.footer-txt span {
 	font-family: "OpenSansExtrabold", sans-serif;
 }
 
