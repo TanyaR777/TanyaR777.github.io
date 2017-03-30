@@ -1,0 +1,435 @@
+/*==========  Desktop First Method  ==========*/
+  
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {     
+		.logo {
+		width: 20%;
+	}
+	
+	.menu {
+		width: 70%;
+	}
+	
+	.menu__item {
+    margin-right: 5%;
+}
+	
+		.logo {
+		float: none;
+		width: 100%;
+	}
+	
+	.menu {
+		float: none;
+		width: 100%;
+	}
+	
+	.slider__block-1--name1 {
+		font-size: 45px;;
+	}
+	
+	.slider__block-1--name2 {
+		font-size: 22px;
+	}
+	
+	.slider__block-1--txt {
+	font-size: 14px;
+ line-height: 22px;
+}
+	
+	.slider__block-2 img {
+    width: 240px;
+    top: -31px;
+    left: -20px;
+}
+	
+	.info__block {
+    float: left;
+    width: 32%;
+	}
+	
+	.info__block--icon1, .info__block--icon2, .info__block--icon3 {
+	margin: 0;
+	}
+	
+	.w-1, .w-2, .w-3 {
+		width: 79%;
+	}
+	
+.post__block1--name {
+	width: 50%;
+	line-height: 29px;
+}
+	
+.post__block1--par span {
+	display: none;
+}
+
+	
+.post__block2--par {
+		font-size: 15px;
+	}
+	
+.post__block2--par span {
+	display: none;
+}
+	
+.post__block--link {
+		display: none;
+	}
+
+.post__block--unvis {
+	display: block;
+	float: right;
+ padding: 19px 9px 0;
+	text-transform: uppercase;
+	font-family: "LeagueGothicRegular", sans-serif;
+	font-size: 19px;
+	text-shadow: 2px 2px 1px rgba(150, 150, 150, 0.6);
+	color: #454545;
+ word-spacing: -2px;
+	text-shadow: none;
+}
+	
+.post__block--unvis:hover, .post__block--unvis:focus, .post__block--unvis:active {
+	color: #454545;
+}
+	
+.brand__name--brand1, .brand__name--brand2, .brand__name--brand3, .brand__name--brand4, .brand__name--brand5, .brand__name--brand6 {
+	margin: 0;
+	}
+	
+.item {
+	padding: 0 0 0 2%;
+	}
+	
+.item:first-child {
+	padding: 0;
+	}
+	
+.comments__block--name, .comments__block--cap, .comments__block--name span, .comments__block--name1 {
+		display: none;
+	}
+	
+	.comments__block__unvis {
+	display: block;
+	padding: 6px 0 5px 0;
+	font-family: "LeagueGothicRegular", sans-serif;
+	text-transform: uppercase;
+	font-size: 29px;
+	font-weight: 300;
+	color: #454545;
+}
+	
+.comments__block {
+	width: 27%;
+	margin: 0px 0 0 60px;
+}
+	
+	.comments__block--txt span {
+	display: none;
+}
+
+.footer__menu {
+		width: 100%;
+	}	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	
+	
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+		.menu__item {
+		margin: 0 3% 0 0;
+	}
+	
+	.slider__block-1--name2 {
+		font-size: 20px;
+	}
+	
+	.slider__block-2 img {
+		width: 105%;
+	}
+	
+	.slider__block-1--txt {
+		display: none;
+	}
+	
+		.info__block {
+		float: none;
+		width: 100%;
+	}
+	
+	.info__block--txt--cap {
+		text-shadow: none;
+	}
+	
+	.m-1, .m-2, .m-3 {
+		margin: 0;
+	}
+	
+	.post__block1, .post__block2 {
+		float: none;
+		width: 100%;
+	}
+	
+	.post__block1--name {
+		width: 100%;
+	}
+	
+	.post__block1--par {
+	width: 91%;
+		padding-bottom: 35px;
+	}
+	
+	.post__block1--par span {
+		display: block;
+	}
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	.navigation {
+		padding: 0;
+	}
+
+	.logo {
+		text-align: center;
+	}
+
+	.menu__item {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: center;
+  border-bottom: 1px solid #36283e;
+  border-top: 1px solid #503d58;
+}
+	.menu__item:first-child {
+		  border-top: none;
+	}
+	
+	.menu__item:last-child {
+		  border-bottom: none;
+	}
+	
+.menu__item:hover {
+    background: rgba(42, 33, 47, 0.8);
+    border-bottom: 2px solid #edbfff;
+}
+	
+	.menu {
+	width: 64%;
+	background: rgba(60, 47, 69, 0.9);
+	border-radius: 11px;
+	border: 1px solid #111b22;
+	margin: 0 auto;
+		position: relative;
+		z-index: 1;
+}
+	
+	.menu__item--link--span {
+    text-shadow: none;
+}
+	
+	.slider {
+		position: absolute;
+		z-index: 0;
+		top: 126px;
+		width: 100%;
+	}
+	
+.slider__block-1--name1 {
+ font-size: 40px;
+	}
+	
+.slider__block-1--name2 {
+    font-size: 17px;
+	padding-bottom: 145px;
+}
+	
+	.slider__block-1--txt {
+		display: none;
+	}
+	
+	.info__block {
+		float: none;
+		width: 100%;
+	}
+	
+	.info__block--txt--cap {
+		text-shadow: none;
+	}
+	
+	.m-1, .m-2, .m-3 {
+		margin: 0;
+	}
+	
+	.post__block1, .post__block2 {
+		float: none;
+		width: 100%;
+	}
+	
+	.post__block1--name {
+		width: 100%;
+	}
+	
+	.post__block1--par {
+	width: 91%;
+		padding-bottom: 35px;
+	}
+	
+	.post__block1--par span {
+		display: block;
+	}
+	
+	.brand__name--brand4, 	.brand__name--brand5, 	.brand__name--brand6 {
+		margin-top: 15px;
+	} 
+	
+	.comments__wrap {
+		padding-bottom: 40px;
+	}
+	
+	.comments__block {
+		width: 100%;
+		padding-bottom: 45px;
+  margin: 0;
+	}
+	
+	.footer__menu--item {
+    margin: 0 4% 0 0;
+	}
+	
+		.footer__menu--item:first-child {
+    margin: 0 4% 0 0;
+	}
+	
+	.footer__txt {
+		width: 100%;
+		text-align: center;
+		line-height: 10px;
+		padding-bottom: 50px;
+	}
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.wrapper {
+		padding-top: 40px;
+	}
+	
+	.menu__item {
+		display: none;
+	}
+	
+	.menu__item:first-child, .menu__item:first-child:hover  {
+		display: block;
+		border-bottom: none;
+		background: transparent;
+	}
+	
+	.menu {
+		background: transparent;
+		border: none;
+	}
+	
+	.slider {
+		background: none;
+		position: relative;
+	}
+	
+	.slider__block-1 {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.slider__block-1--name1 {
+		padding-top: 0;
+	}
+	
+.slider__block-2 {
+		display: none;
+	}
+	
+	.info {
+		margin: 50px 0 10px 0;
+	}
+	
+	.info__block {
+		padding-bottom: 30px;
+	}
+	
+	.post__block2--cap span {
+		display: none;
+	}
+	
+	.item {
+		margin-top: 20px;
+	}
+	
+.brand__name--brand3 {
+		background-position: -250px 0;
+	}
+	
+	.brand__name--brand4 {
+		background-position: -373px 0;
+	}
+
+	.comments {
+		display: none;
+	}
+	
+	.footer__menu {
+		display: none;
+	} 
+
+	.footer__txt {
+		padding: 40px 0 100px 0;
+	}
+
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ 
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
