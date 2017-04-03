@@ -35,6 +35,7 @@ a:focus {
 
 
 /*LOGO*/
+
 .wrap--substrate {
 	display: flex;
 	flex-direction: column;
@@ -83,6 +84,7 @@ a:focus {
 
 
 /*NAV MENU*/
+
 .section--header__menu {
 	text-align: center;
 }
@@ -95,24 +97,71 @@ a:focus {
 	display: block;
 }
 
-.menu--nav__link {
+.menu--nav__link,
+.submenu--nav__link {
 	font-family: "LeagueGothicRegular", sans-serif;
 	font-size: 24px;
 	text-transform: uppercase;
 	color: #fff;
 	text-shadow: 2px 2px 1px rgba(150, 150, 150, 0.6);
 	line-height: 48px;
+	text-decoration: none;
 }
 
 .menu--nav__link:hover,
-.menu--nav__link:focus {
+.menu--nav__link:focus,
+.menu--nav__link:active {
 	text-decoration: underline;
 	color: #edbfff;
 }
 
-.menu--nav__link__span {
+.menu--nav__span {
 	display: block;
 	color: #fff;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	background: rgba(60, 47, 69, 0.9);
+	border-radius: 11px;
+	border: 1px solid #111b22;
+	width: 100%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.submenu--nav__item {
+	display: block;
+	border-bottom: 1px solid #36283e;
+	border-top: 1px solid #503d58;
+}
+
+.submenu--nav__link {
+	display: block;
+}
+
+.submenu--nav__item:first-child {
+	border-top: none;
+}
+
+.submenu--nav__item:last-child {
+	border-bottom: none;
+}
+
+.submenu--nav__item:hover {
+	background: rgba(42, 33, 47, 0.8);
+	border-bottom: 2px solid #edbfff;
+}
+
+.submenu--nav__span {
+	text-shadow: none;
+}
+
+.menu--nav > .menu--nav__item:hover > .submenu {
+	display: block;
 }
 
 
@@ -160,7 +209,7 @@ a:focus {
 	color: #edbfff;
 	font-family: "LeagueGothicRegular", sans-serif;
 	text-transform: uppercase;
-	font-size: 21px;
+	font-size: 19px;
 	font-weight: 300;
 	line-height: 20px;
 }
@@ -170,7 +219,9 @@ a:focus {
 	display: none;
 }
 
+
 /*ABOUT*/
+
 .wrap--violent {
 	background-image: linear-gradient(to bottom, #734f82, #35273d);
 	background-size: cover;
@@ -190,18 +241,18 @@ a:focus {
 	padding-bottom: 20px;
 }
 
-.item--point__icon {
+.item--icon {
 	display: block;
 	width: 38px;
 	height: 38px;
 	background: transparent url(../img/icon.png) 0 0 no-repeat;
 }
 
-.icon_2 {
+.icon--bubble {
 	background-position: -38px 0;
 }
 
-.icon_3 {
+.icon--note {
 	background-position: -79px 0;
 }
 
@@ -243,6 +294,7 @@ a:focus {
 
 
 /*MAIN*/
+
 .wrap--white {
 	background: #f9f9f9;
 	background-size: cover;
@@ -341,7 +393,7 @@ a:focus {
 	margin: 5px 15px 0 0;
 }
 
-.starts--recent--col2__title {
+.starts--col2__title {
 	font-family: "OpenSansLight", sans-serif;
 	word-spacing: 6px;
 	color: #515151;
@@ -351,7 +403,7 @@ a:focus {
 	max-height: 21px;
 }
 
-.starts--recent--col2__txt {
+.starts--col2__txt {
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 16px;
 	max-height: 20px;
@@ -379,6 +431,7 @@ a:focus {
 
 
 /*BRAND*/
+
 .wrap-grey {
 	background: #f9f9f9;
 	border-top: 1px solid #fefefe;
@@ -426,6 +479,7 @@ a:focus {
 
 
 /*CATEGORIES*/
+
 .wrap--darkgrey {
 	background: #ececec;
 }
@@ -436,6 +490,7 @@ a:focus {
 
 
 /*FOOTER*/
+
 .wrap--footer {
 	background: url(../img/footer_bg.jpg) 0 0 no-repeat;
 	background-size: cover;
