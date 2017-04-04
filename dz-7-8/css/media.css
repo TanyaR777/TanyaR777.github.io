@@ -2,31 +2,7 @@
 	.section--header__logo {
 		text-align: center;
 	}
-	.menu--nav {
-		background: rgba(60, 47, 69, 0.9);
-		border-radius: 11px;
-		border: 1px solid #111b22;
-		width: 50%;
-		margin: 0 auto;
-	}
-	.menu--nav__item {
-		display: block;
-		border-bottom: 1px solid #36283e;
-		border-top: 1px solid #503d58;
-	}
-	.menu--nav__item:first-child {
-		border-top: none;
-	}
-	.menu--nav__item:last-child {
-		border-bottom: none;
-	}
-	.menu--nav__item:hover {
-		background: rgba(42, 33, 47, 0.8);
-		border-bottom: 2px solid #edbfff;
-	}
-	.menu--nav__span {
-		text-shadow: none;
-	}
+		
 	.slider {
 		background: rgba(0, 0, 0, 0.3);
 	}
@@ -146,21 +122,39 @@
 }
 
 @media screen and (min-width: 768px) {
+	
+.section--header {
+	padding: 70px 0 100px;
+}
+	
+	.section--header__menu {
+		position: relative;
+	}
+	
 	.section--header__logo {
 		text-align: left;
 		width: 40%;
 	}
-	.menu--nav {
-		background: none;
+	
+	.nav {
+  display: flex;
+		flex-direction: row;
 		border: none;
-		width: 100%;
 	}
+	
+	.menu--nav {
+		width: 100%;
+ 	visibility: visible;
+}
+	
 	.menu--nav__item {
-		float: left;
 		display: block;
 		margin-right: 8%;
 		border: none;
+		min-width: 0;
+		background: none;
 	}
+	
 	.menu--nav__item:last-child {
 		margin-right: 0;
 	}
@@ -170,10 +164,24 @@
 		border: none;
 		color: #edbfff;
 	}
-	.menu--nav__link__span {
+	.menu--nav__link {
 		color: #fff;
 		display: block;
+		background: n0ne;
 	}
+	
+	.menu--nav__link:hover {
+  display: block;
+  background-color: transparent;
+  text-shadow: none;
+  border-bottom: 1px solid transparent;
+}
+	
+	.nav__link--initial {
+  border-bottom: none;
+}
+
+	
 	
 	.slider {
 		background: rgba(0, 0, 0, 0.3);
@@ -320,9 +328,15 @@
 	.starts--recent__link--unvis {
 		display: block;
 	}
-	.starts--recent--col2__txt {
-		width: 100%;
+	
+		.starts--col2__title {
+		width: 81%;
 	}
+	.starts--col2__txt {
+		width: 107%;
+	}
+	
+	
 	.section--brand__name {
 		justify-content: space-around;
 	}
