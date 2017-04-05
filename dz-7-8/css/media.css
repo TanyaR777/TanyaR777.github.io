@@ -6,28 +6,29 @@
 	.slider {
 		background: rgba(0, 0, 0, 0.3);
 	}
-	.slider__control {
-		width: 10%;
-	}
+
 	.slide {
 		display: flex;
 		align-items: center;
 	}
 	.slide__body {
-		width: 56%;
+		min-width: 56%;
 	}
 	.slide__body--title {
-		font-size: 33px;
+		font-size: 37px;
 	}
 	.slide__body--title1 {
-		font-size: 15px;
+		font-size: 17px;
 	}
 	.slide__img {
 		display: block;
 		position: relative;
+		min-width: 35%;
 	}
 	.slide__img img {
-		width: 103%;
+		width: 80%;
+		height: auto;
+		display: block;
 	}
 	.starts--substrate {
 		width: 100%;
@@ -37,6 +38,18 @@
 		width: 100%;
 		line-height: 30px;
 	}
+	
+		.starts--recent {
+		display: flex;
+		width: 80%;
+		margin: 0 auto;
+		align-items: center;
+	}
+	.starts--recent__title {
+		display: flex;
+		align-self: flex-start;
+	}
+	
 	.starts--recent--col2 {
 		word-spacing: 0;
 	}
@@ -46,16 +59,16 @@
 	.section--brand__name {
 		justify-content: center;
 	}
-	.brand--name__brand1,
-	.brand--name__brand2,
-	.brand--name__brand3 {
-		width: 26%;
-	}
-	.brand--name__brand4,
-	.brand--name__brand5,
-	.brand--name__brand6 {
-		width: 25%;
-	}
+	
+.item--brand1,
+.item--brand2,
+.item--brand3,
+.item--brand4,
+.item--brand5,
+.item--brand6 {
+	width: 33.33%;
+}
+
 	.section--categories {
 		display: flex;
 		flex-direction: column;
@@ -181,7 +194,10 @@
   border-bottom: none;
 }
 
-	
+	.slide {
+		display: flex;
+		justify-content: space-between;
+	}	
 	
 	.slider {
 		background: rgba(0, 0, 0, 0.3);
@@ -235,6 +251,16 @@
 	.starts--col2__txt {
 		width: 85%;
 	}
+	
+.item--brand1,
+.item--brand2,
+.item--brand3,
+.item--brand4,
+.item--brand5,
+.item--brand6 {
+	width: 25%;
+}
+	
 	.section--brand__name {
 		display: flex;
 		flex-direction: row;
@@ -284,7 +310,7 @@
 		.slide {
     display: flex;
     align-items: center;
-    justify-content: space-between;;
+    justify-content: space-between;
 }
 	
 	.slider__control--right,
@@ -301,6 +327,11 @@
     top: 39%;
     right: -25%;
 }
+	
+.fa.fa-chevron-left
+	.fa.fa-chevron-right {
+		position: absolute;
+	}
 	
 	.slide__body--title {
 		font-size: 50px;
@@ -322,6 +353,7 @@
 	.item--point:last-child {
 		margin-right: 0;
 	}
+	
 	.starts--recent__link {
 		display: none;
 	}
