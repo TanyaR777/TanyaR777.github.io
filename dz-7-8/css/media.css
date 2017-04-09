@@ -28,9 +28,7 @@
 		height: auto;
 		display: block;
 	}
-	.starts--substrate {
-		width: 100%;
-	}
+
 	.starts--here__title {
 		width: 100%;
 		line-height: 30px;
@@ -207,14 +205,14 @@
 	.slide__body--title1 {
 		font-size: 30px;
 	}
-	.section__item {
+	.section--about {
 		display: flex;
 		justify-content: space-around;
 	}
 	.item--point {
 		width: 30%;
 	}
-	.section__starts {
+	.section--main {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -266,7 +264,8 @@
 		margin-right: 60px;
 	}
 	.section--footer__txt {
-		text-align: right;
+		display: flex;
+		justify-content: flex-end;
 	}
 }
 
@@ -322,7 +321,7 @@
 	.slide__img img {
 		margin: 0 auto;
 	}
-	.section__item {
+	.section--about {
 		display: flex;
 		justify-content: space-around;
 	}

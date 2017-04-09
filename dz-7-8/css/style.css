@@ -260,10 +260,6 @@ a:focus {
 	padding: 70px 0 50px 0;
 }
 
-.section__item {
-	width: 100%;
-}
-
 .item--point {
 	display: flex;
 	padding-bottom: 20px;
@@ -333,6 +329,8 @@ a:focus {
 
 .section--main {
 	padding: 70px 0 90px 0;
+		display: flex;
+	flex-direction: column;
 }
 
 .section--starts {
@@ -354,11 +352,6 @@ a:focus {
 	flex-direction: column;
 }
 
-.section__starts {
-	display: flex;
-	flex-direction: column;
-}
-
 .starts--here {
 	display: flex;
 	padding: 20px 0;
@@ -370,9 +363,11 @@ a:focus {
 	padding-right: 15px;
 }
 
-.starts--here__img {
+.starts--here img {
 	position: relative;
 	left: -26px;
+	width: 49px;
+height: 51px;
 }
 
 .starts--here__title {
@@ -495,33 +490,33 @@ img {
 }
 
 .item--brand1 {
-	background-position: 42px 11px;
+	background-position: 25px 11px;
 }
 
 .item--brand2 {
-	background-position: -92px 11px;
+	background-position: -112px 11px;
 }
 
 .item--brand3 {
-	background-position: -226px 11px;
+	background-position: -242px 11px;
 }
 
 .item--brand4 {
-	background-position: -357px 11px;
+	background-position: -375px 11px;
 }
 
 .item--brand5 {
-	background-position: -502px 11px;
+	background-position: -520px 11px;
 }
 
 .item--brand6 {
-	background-position: -663px 11px;
+	background-position: -679px 11px;
 }
 
 .item {
 	display: block;
 	height: 93px;
-	width: 150px;
+	width: 115px;
 }
 
 
@@ -551,6 +546,8 @@ img {
 }
 
 .section--footer__txt {
+	display: flex;
+	justify-content: center;
 	font-family: "OpenSansLight", sans-serif;
 	color: #fff;
 	font-size: 12px;
