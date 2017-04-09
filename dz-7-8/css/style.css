@@ -163,7 +163,7 @@ a:focus {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
-	background-color: none;
+
 }
 
 .slider__control {
@@ -530,6 +530,7 @@ img {
 .wrap--darkgrey {
 	background: #ececec;
 	padding: 5px;
+	display: none;
 }
 
 .section--categories {

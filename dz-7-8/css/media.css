@@ -85,6 +85,13 @@
 	.categories--block__title__unvis {
 		display: none;
 	}
+	
+	.wrap--darkgrey {
+	background: #ececec;
+	padding: 5px;
+		display: block;
+}
+	
 	.categories--block {
 		max-height: 139px;
 		overflow: hidden;
@@ -163,7 +170,7 @@
 	.menu--nav__link {
 		color: #fff;
 		display: block;
-		background: n0ne;
+		background: none;
 	}
 	.menu--nav__link:hover {
 		display: block;
