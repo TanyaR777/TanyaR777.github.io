@@ -518,6 +518,7 @@ img {
 	display: block;
 	height: 93px;
 	width: 115px;
+	margin: 0 auto;
 }
 
 
@@ -557,6 +558,7 @@ img {
 
 .section--footer__txt span {
 	font-family: "OpenSansExtrabold", sans-serif;
+	margin-left: 5px;
 }
 
 .section--footer__menu {
