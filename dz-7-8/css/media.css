@@ -5,6 +5,14 @@
 	.slider {
 		background: rgba(0, 0, 0, 0.3);
 	}
+	
+	.slider__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: normal;
+}
+	
 	.slide {
 		display: flex;
 		align-items: center;
