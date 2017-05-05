@@ -91,7 +91,7 @@
 }
 	
 	.footer-menu {
-		display: block;
+		display: flex;
 	}
 	
 	.footer-menu__item {
@@ -237,10 +237,7 @@
 		flex-wrap: nowrap;
 		justify-content: center;
 	}
-	.section--categories {
-		display: flex;
-		flex-direction: row;
-	}
+
 	.categories-block {
 		max-height: 218px;
 	}
@@ -314,7 +311,7 @@
 		width: 81%;
 	}
 	.recent-col__txt {
-		width: 107%;
+		width: 108%;
 	}
 	.here-body__title {
     width: 70%;

@@ -239,7 +239,6 @@ a:focus {
 
 /*ABOUT*/
 .wrap--violent {
-	padding: 5px;
 	background-image: linear-gradient(to bottom, #734f82, #35273d);
 	background-size: cover;
 	border-top: 1px solid #33253a;
@@ -251,13 +250,13 @@ a:focus {
 
 .item-point {
 	padding: 0 0 20px 0;
+	display: flex;
 }
 
 .item-point__icon {
 	display: block;
 	width: 30px;
 	height: 30px;
-	float: left;
 }
 
 .icon-bubble {
@@ -270,6 +269,7 @@ a:focus {
 
 .item-body {
 	color: #fefefe;
+	padding-left: 20px;
 }
 
 .item-body__title {
@@ -303,7 +303,6 @@ a:focus {
 /*MAIN*/
 
 .wrap--white {
-	padding: 5px;
 	background: #f9f9f9;
 	background-size: cover;
 	border-bottom: 1px solid #e6e6e6;
@@ -429,7 +428,6 @@ img {
 /*BRAND*/
 
 .wrap--grey {
-	padding: 5px;
 	background: #f9f9f9;
 	border-top: 1px solid #fefefe;
 	border-bottom: 1px solid #d8d8d8;
