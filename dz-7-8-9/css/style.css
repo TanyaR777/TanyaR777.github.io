@@ -173,8 +173,8 @@ a:focus {
 	justify-content: flex-end;
 }
 
-.slider-body__slide {
-	display: flex;
+.slide-content {
+    width: 100%;
 }
 
 .slide-content__title {
@@ -239,10 +239,10 @@ a:focus {
 
 /*ABOUT*/
 .wrap--violent {
+	padding: 5px;
 	background-image: linear-gradient(to bottom, #734f82, #35273d);
 	background-size: cover;
 	border-top: 1px solid #33253a;
-	padding: 5px;
 }
 
 .section--about {
@@ -251,13 +251,13 @@ a:focus {
 
 .item-point {
 	padding: 0 0 20px 0;
-	width: 97%;
 }
 
 .item-point__icon {
 	display: block;
 	width: 30px;
 	height: 30px;
+	float: left;
 }
 
 .icon-bubble {
@@ -303,20 +303,22 @@ a:focus {
 /*MAIN*/
 
 .wrap--white {
+	padding: 5px;
 	background: #f9f9f9;
 	background-size: cover;
 	border-bottom: 1px solid #e6e6e6;
 	border-top: 1px solid #f9f9f9;
-	padding: 5px;
 }
 
 .section--main {
 	padding: 70px 0 90px 0;
 }
 
+.starts-pingbuller {
+    padding: 5px;
+}
+
 .starts-substrate {
-	width: 92%;
-	margin-left: 25px;
 	box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.5);
 	-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.5);
 	-moz-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.5);
@@ -325,7 +327,7 @@ a:focus {
 
 .starts-here {
 	display: flex;
-	padding: 20px 0;
+	padding: 20px 10px 20px 0;
 }
 
 .starts-body {
@@ -347,7 +349,7 @@ a:focus {
 	color: #515151;
 	font-weight: 300;
 	line-height: 25px;
-	width: 50%;
+	width: 63%;
 }
 
 .here-body__title span {
@@ -396,7 +398,7 @@ img {
 	word-spacing: 6px;
 	color: #515151;
 	font-weight: 600;
-	width: 60%;
+	width: 66%;
 	overflow: hidden;
 	max-height: 21px;
 }
@@ -406,10 +408,6 @@ img {
 	font-size: 16px;
 	max-height: 20px;
 	overflow: hidden;
-}
-
-.recent-col {
-	word-spacing: 5px;
 }
 
 .starts-recent__link,
@@ -431,14 +429,19 @@ img {
 /*BRAND*/
 
 .wrap--grey {
+	padding: 5px;
 	background: #f9f9f9;
 	border-top: 1px solid #fefefe;
 	border-bottom: 1px solid #d8d8d8;
-	padding: 5px;
 }
 
 .section-brand {
 	padding: 50px 0 50px;
+}
+
+.brand-name {
+	width: 50%;
+	float: left;
 }
 
 .brand-name__link1,
@@ -486,7 +489,6 @@ img {
 
 .wrap--darkgrey {
 	background: #ececec;
-	padding: 5px;
 	display: none;
 }
 
@@ -500,7 +502,6 @@ img {
 .wrap--footer {
 	background: url(../img/footer_bg.jpg) 0 0 no-repeat;
 	background-size: cover;
-	padding: 5px;
 }
 
 .section--footer {
