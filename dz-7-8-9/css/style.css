@@ -19,12 +19,6 @@ a:focus {
 	text-decoration: none;
 }
 
-.clearfix::after {
-	content: '';
-	display: block;
-	clear: both;
-}
-
 /*LOGO*/
 
 .wrap--substrate {
