@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+ box-sizing: border-box;
 }
 
 ul,
@@ -275,7 +276,7 @@ a:focus {
 
 .item-body__txt {
 	padding-top: 7px;
-	max-height: 69px;
+	max-height: 75px;
 	overflow: hidden;
 	font-family: "OpenSansLight", sans-serif;
 	font-size: 15px;
