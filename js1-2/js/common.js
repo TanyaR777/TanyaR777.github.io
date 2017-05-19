@@ -1,52 +1,54 @@
-//var years = prompt('Сколько вам лет?', 100);
-//
-//alert('Вам ' + years + ' лет!')
-
 
 /* 1 */
+(function () {
+  'use strict';
 function pow(x, n) {
-  var result = x;
 
-  for (var i = 1; i < n; i++) {
-    result *= x;
-  }
+ var result = x;
 
-  return result;
+ for (var i = 1; i < n; i++) {
+   result *= x;
+ }
+
+ return result;
 }
 
-var x = prompt("Введите число?", '');
-var n = prompt("Укажите в какую степень его возвести?", '');
+var x = prompt('Введите число?', '');
+var n = prompt('Укажите в какую степень его возвести?', '');
+
+if(!isNaN(x)) {
+	alert('');
+} else {
+	alert('not a number');
+}
+
 
 if (n <= 1) {
-  alert('Степень ' + n +
-    'не поддерживается, введите целую степень, большую 1'
-  );
+ alert('Степень ' + n +
+   'не поддерживается, введите целую степень, большую 1'
+ );
 } else {
-  alert( pow(x, n) );
+ alert ( pow(x, n) );
 }
 
+	})();
 
+/*2*/
+(function() {
+  'use strict';
 
+  var userNames = ['Антон', 'Валерий', 'Ольга', 'Иван', 'Сергей'];
 
-/* 2 */
-var name = prompt('Введите Ваше имя?', '');
+  var name = prompt('введите имя для поиска: ', '');
 
-if (name == 'Андрей') {
-	
-	function showMessage() {
-  var message = name + ',' + 'Вы успешно вошли';
-  alert(message);
-}
+  var result = 'такого пользователя нет ' ;
 
-showMessage(); 
-	
-} else {
-  alert( 'А вот и неправильно!' ); 
-}
+  for (var i = 0; i < userNames.length; i++) {
+    if (name === userNames[i]) {
+    result = name + 'вы вошли '
+      break;
+    }
+  }
 
-
-
-
-
-
-
+  alert(result);
+})();
